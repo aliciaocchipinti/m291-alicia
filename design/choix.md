@@ -12,7 +12,7 @@
 | Fidélité au brief | Bonne | Moyenne | Très bonne |
 
 ## Comparaison croisée :
-Demander à un camarade
+Demander à un camarade 
 
 ## Choix final
 
@@ -26,4 +26,4 @@ Même si les couleurs actuelles correspondent moins à l’ambiance sombre prév
 
 J’abandonne la direction chaleureuse car elle correspond moins à l’univers d’InkFinder.
 
-J’abandonne la direction audacieuse car, même si elle correspond bien à l’univers du tatouage, elle est visuellement plus chargée et risque de rendre la recherche moins simple.
+J’abandonne la direction audacieuse car, même si elle correspond bien à l’univers du tatouage, elle est visuellement plus chargée et risque de rendre la recherche moins simple. L'interface fait aussi plus mal aux yeux.
