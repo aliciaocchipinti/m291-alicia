@@ -6,7 +6,7 @@ En une phrase, elle sert à :
 Aider une personne à trouver un tatoueur correspondant au style de tatouage qu’elle recherche.
 
 À qui :
-Léa, 22 ans, souhaite faire son premier tatouage et cherche un tatoueur spécialisé dans le style qu’elle aime.
+Personne qui souhaite faire son premier tatouage et cherche un tatoueur spécialisé dans le style qu’elle aime.
 
 La tâche n°1 :
 Trouver un tatoueur adapté à son style de tatouage.

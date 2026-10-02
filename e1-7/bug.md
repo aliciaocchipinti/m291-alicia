@@ -13,3 +13,4 @@ n vaut maintenant 1
 n vaut maintenant 2
 n vaut maintenant 3
 La variable fonctionne mais l'écran ne suit pas
+
