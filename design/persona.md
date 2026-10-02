@@ -4,7 +4,7 @@ Prénom et âge :
 Maria Pirelli, 24 ans
 
 Occupation: 
-Emplyée de commerce à Lausanne
+Employée de commerce à Lausanne
 
 Où et quand elle utilise l’app :
 Principalement le soir ou pendant ses pauses, lorsqu’elle cherche des idées pour son futur tatouage et veut trouver un tatoueur adapté.
