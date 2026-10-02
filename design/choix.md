@@ -20,9 +20,9 @@ Je retiens le design 1, la direction sobre.
 
 Cette direction me paraît la plus adaptée à l'utilisateur, car l’interface est claire, lisible et facile à comprendre rapidement.
 
-Les filtres, les styles de tatouage et les profils de tatoueurs sont bien hiérarchisés, ce qui permet à Maria de trouver rapidement les informations importantes sans être distraite par trop d’éléments visuels.
+Les filtres, les styles de tatouage et les profils de tatoueurs sont bien hiérarchisés, ce qui permet à l'utilisateur de trouver rapidement les informations importantes sans être distraite par trop d’éléments visuels.
 
-Même si les couleurs actuelles correspondent moins à l’ambiance sombre prévue dans le brief, elles pourront être adaptées plus tard sans modifier la structure générale du design.
+Même si les couleurs actuelles correspondent moins à l’ambiance sombre prévue dans le brief, elles pourront être adaptées plus tard sans modifier la structure générale du design (ajout/changement de couleurs)
 
 J’abandonne la direction chaleureuse car elle correspond moins à l’univers d’InkFinder.
 
