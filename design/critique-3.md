@@ -18,4 +18,4 @@ Preuve : le design contient davantage d’éléments graphiques et de contrastes
 
 ## Verdict
 
-Je garde ce design en lice car il correspond le mieux à l’identité d’InkFinder tout en permettant à l'utilisateur de trouver rapidement les filtres et les profils de tatoueurs.
+Je garde ce design en lice car il correspond le mieux à l’identité d’InkFinder tout en permettant à l'utilisateur de trouver rapidement les filtres et les profils de tatoueurs. Cepandant, il paraît trop foncé et chargé donc bien qu'il corresponde le mieux au brief, il me prouve que mon idée de base était trop sombre. 
