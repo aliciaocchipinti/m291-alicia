@@ -23,7 +23,7 @@ Elle veut voir rapidement le style, la localisation et les informations principa
 
 ### Écran 1 — Liste
 
-- On y voit : le nom InkFinder, une courte phrase d’introduction, les styles de tatouage disponibles et une liste de tatoueurs.
+- On y voit : le nom InkFinder, une barre de recherche des styles, les styles de tatouage disponibles et une liste de tatoueurs.
 - On peut y faire : parcourir les tatoueurs et choisir un style à filtrer.
 - Bouton principal : Filtrer par style.
 
@@ -41,14 +41,14 @@ Elle veut voir rapidement le style, la localisation et les informations principa
 
 ## Ambiance visuelle
 
-Sombre, élégante, moderne.
+Elégante, moderne.
 
 L’interface doit rappeler un portfolio de studio de tatouage : visuelle et marquée, mais suffisamment sobre pour que les profils et les styles restent faciles à consulter.
 
 ## Palette
 
-- Fond : gris foncé 
-- Texte : blanc cassé ou ivoire
+- Fond : blanc cassé 
+- Texte : noir / gris foncé
 - Accent : rouge profond
 - Attention / erreur : rouge-orangé
 
