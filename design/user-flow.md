@@ -4,13 +4,13 @@ Tâche :
 Trouver un tatoueur correspondant au style de tatouage recherché.
 
 Début :
-La personne ouvre InkFinder sur son téléphone.
+Maria ouvre InkFinder sur son téléphone.
 
 Fin réussie :
-La personne a trouvé un tatoueur dont le style correspond à ce qu’elle recherche.
+Maria a trouvé un tatoueur dont le style correspond à ce qu’elle recherche.
 
 Chemin :
-1. La personne ouvre l’application.
+1. Maria ouvre l’application.
 2. Elle voit la liste des tatoueurs et les styles proposés.
 3. Elle choisit ou filtre selon le style de tatouage recherché.
 4. Elle consulte les tatoueurs qui correspondent au filtre.
