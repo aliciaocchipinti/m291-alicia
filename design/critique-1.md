@@ -18,4 +18,4 @@ Preuve : plusieurs éléments utilisent des tons et des contours très proches, 
 
 ## Verdict
 
-Je garde ce design en lice car il permet à l'utilisateur de chercher facilement un tatoueur et de comprendre l’interface rapidement. Cependant, il représente légèrement moins fortement l’identité visuelle prévue pour InkFinder, mais l'interface reste moderne et plaisante.
+Je garde ce design en lice car il permet à l'utilisateur (Maria) de chercher facilement un tatoueur et de comprendre l’interface rapidement. Cependant, il représente légèrement moins fortement l’identité visuelle prévue pour InkFinder, mais l'interface reste moderne et plaisante.

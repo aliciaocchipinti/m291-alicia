@@ -18,4 +18,4 @@ Preuve : certains textes et contours utilisent des tons assez proches du fond cl
 
 ## Verdict
 
-Je garde ce design en lice car il est clair et rassurant pour l'utilisateur. Je le retiens moins pour InkFinder car l’ambiance chaleureuse correspond moins à l’univers moderne prévu dans le brief, les couleurs s'éloignent de l'idée principale.
+Je garde ce design en lice car il est clair et rassurant pour l'utilisateur (Maria). Je le retiens moins pour InkFinder car l’ambiance chaleureuse correspond moins à l’univers moderne prévu dans le brief, les couleurs s'éloignent de l'idée principale.
