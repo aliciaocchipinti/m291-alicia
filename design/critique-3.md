@@ -12,9 +12,9 @@ Preuve : les éléments importants comme le logo, le filtre actif et les noms de
 1. Critère : Accessibilité
 Preuve : l’utilisation importante du rouge sur fond noir devra être testée avec WebAIM afin de vérifier que les contrastes sont suffisants.
 
-2. Critère : Lisibilité
-Preuve : le design contient davantage d’éléments graphiques et de contrastes que les deux autres, ce qui peut rendre l’écran légèrement plus chargé.
+2. Critère : Fidélité au brief
+Preuve : le fond noir s’éloigne de la palette prévue, qui demande un fond blanc cassé avec du texte noir ou gris foncé.
 
 ## Verdict
 
-Je garde ce design en lice car il correspond le bien à l’identité du tatouage en soi tout en permettant à l'utilisateur (Maria) de trouver rapidement les filtres et les profils de tatoueurs. Cepandant, il paraît trop foncé et chargé pour correspondre au brief et à l'identitié visuelle d'InkFinder. 
+Je garde ce design en lice car il possède une identité forte liée à l’univers du tatouage et permet à Maria de repérer rapidement les filtres et les profils. Cependant, son fond très sombre et son aspect plus chargé correspondent moins à l’identité élégante et sobre définie pour InkFinder.
