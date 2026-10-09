@@ -45,13 +45,15 @@ Elégante, moderne, sobre
 
 L’interface doit rappeler un portfolio de studio de tatouage : visuelle et marquée, mais suffisamment sobre pour que les profils et les styles restent faciles à consulter.
 
+
 ## Palette
 
-- Fond : blanc cassé 
-- Texte : noir / gris foncé
-- Accent : rouge profond
-- Attention / erreur : rouge-orangé
-
+- Fond : #FEFCF7 blanc cassé
+- Texte : #111111 noir
+- Texte secondaire : #5F5F5F gris
+- Accent : #830E0F rouge profond
+- Attention / erreur : #C2472D rouge-orangé
+ 
 ## Interdits
 
 - Pas de Bootstrap ni de React.
