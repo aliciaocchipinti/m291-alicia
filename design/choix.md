@@ -11,9 +11,6 @@
 | Accessibilité | Bonne, à vérifier | À vérifier | À vérifier |
 | Fidélité au brief | Très Bonne | Moyenne | Bonne |
 
-## Comparaison croisée :
-Demander à un camarade 
-
 ## Choix final
 
 Je retiens le design 1, la direction sobre.
