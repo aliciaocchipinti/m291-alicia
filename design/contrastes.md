@@ -54,6 +54,6 @@ Résultat : conforme WCAG AA ✓
 Texte / élément : #C2472D
 Fond : #FEFCF7
 
-Ratio : 4,3:1
+Ratio : 4,5:1
 
 Résultat : conforme WCAG AA ✓ (mais faible)
