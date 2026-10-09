@@ -80,11 +80,10 @@ J’ai aidé : /
 ## Itération
 
 ### Avant
-La maquette comportait un menu burger en haut de l’écran alors que les principales pages étaient déjà accessibles depuis la navigation du bas.
+La maquette comportait un menu burger en haut de l’écran alors que les principales pages étaient déjà accessibles depuis la navigation du bas. La deuxième page du menu était appelée « Recherche », ce qui pouvait sembler redondant avec les filtres déjà présents sur l’écran.
 
 ### Après
-Le menu burger est supprimé afin de simplifier l’interface et d’éviter une navigation en double.
+Le menu burger a été supprimé afin de simplifier l’interface et d’éviter une navigation en double.
 
-### Autre amélioration prévue
-La page avec la loupe au bas de l'écran sera renommée « Résultats » afin de mieux indiquer qu’elle permet d’utiliser des critères plus précis. C'est le nom de la deuxième page prévue donc elle fait plus de sens qu'une icône de loupe. 
+La deuxième page du menu du bas a été renommée « Résultats » afin de mieux indiquer qu’elle permet d’afficher et d’affiner les résultats selon des critères plus précis.
 
