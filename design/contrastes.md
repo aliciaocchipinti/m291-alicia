@@ -18,7 +18,7 @@ Pour du texte de taille normale, le ratio minimum recherché est de 4,5:1.
 Texte : #111111
 Fond : #FEFCF7
 
-Ratio : 18,42:1
+Ratio : 18,41:1
 
 Résultat : conforme WCAG AA ✓
 
@@ -27,7 +27,7 @@ Résultat : conforme WCAG AA ✓
 Texte : #5F5F5F
 Fond : #FEFCF7
 
-Ratio : 6,23:1
+Ratio : 6,22:1
 
 Résultat : conforme WCAG AA ✓
 
@@ -36,7 +36,7 @@ Résultat : conforme WCAG AA ✓
 Texte / élément : #830E0F
 Fond : #FEFCF7
 
-Ratio : 10,07:1
+Ratio : 10,06:1
 
 Résultat : conforme WCAG AA ✓
 
@@ -45,7 +45,7 @@ Résultat : conforme WCAG AA ✓
 Texte : #FEFCF7
 Fond du bouton : #830E0F
 
-Ratio : 10,07:1
+Ratio : 10,06:1
 
 Résultat : conforme WCAG AA ✓
 
@@ -54,6 +54,6 @@ Résultat : conforme WCAG AA ✓
 Texte / élément : #C2472D
 Fond : #FEFCF7
 
-Ratio : 4,84:1
+Ratio : 4,3:1
 
 Résultat : conforme WCAG AA ✓ (mais faible)
