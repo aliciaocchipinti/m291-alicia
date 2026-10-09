@@ -10,8 +10,7 @@ Preuve : la barre de recherche, les styles et la navigation du bas sont visibles
 
 ## 2 faiblesses
 
-1. Critère : Cohérence avec le brief
-Preuve : le design est très clair et élégant, mais il transmet moins l’univers sombre et marqué du tatouage prévu dans le brief.
+1. Critère : Fidélité au brief — Preuve : le fond blanc cassé et le texte noir correspondent bien à la palette prévue, mais l’accent rouge profond est encore peu présent dans cette proposition.
 
 2. Critère : Hiérarchie visuelle
 Preuve : plusieurs éléments utilisent des tons et des contours très proches, donc certaines informations secondaires se différencient peu du reste.
