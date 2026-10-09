@@ -35,13 +35,13 @@ Elle veut voir rapidement le style, la localisation et les informations principa
 
 ### Écran 3 — Fiche tatoueur
 
-- On y voit : le nom du tatoueur, sa localisation, ses styles, une courte présentation et des informations pratiques tels que ses réseaux sociaux.
+- On y voit : le nom du tatoueur, sa localisation, ses styles, une courte présentation et des informations pratiques telles que ses réseaux sociaux
 - On peut y faire : consulter les informations du tatoueur et revenir aux résultats.
 - Bouton principal : Retour aux résultats.
 
 ## Ambiance visuelle
 
-Elégante, moderne.
+Elégante, moderne, sobre
 
 L’interface doit rappeler un portfolio de studio de tatouage : visuelle et marquée, mais suffisamment sobre pour que les profils et les styles restent faciles à consulter.
 
