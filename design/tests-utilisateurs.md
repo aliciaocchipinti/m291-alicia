@@ -73,7 +73,7 @@ J’ai aidé : /
 
 ## Corrections prioritaires
 
-1. Préciser la deuxième page en « Reésultats » afin de mieux différencier sa fonction.
+1. Préciser la deuxième page en « Résultats » afin de mieux différencier sa fonction.
 
 2. Supprimer le menu burger pour simplifier la navigation et éviter les doublons.
 
@@ -87,6 +87,4 @@ Le menu burger est supprimé afin de simplifier l’interface et d’éviter une
 
 ### Autre amélioration prévue
 La page avec la loupe au bas de l'écran sera renommée « Résultats » afin de mieux indiquer qu’elle permet d’utiliser des critères plus précis. C'est le nom de la deuxième page prévue donc elle fait plus de sens qu'une icône de loupe. 
-
-
 
