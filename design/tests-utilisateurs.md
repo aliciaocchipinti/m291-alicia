@@ -1,5 +1,6 @@
 # Test utilisateur — InkFinder
 
+Maquette utilisée : sobre version corrigée (accents rouges) 
 ## Personne testée
 
 Testeur :
@@ -64,18 +65,28 @@ Remarque dite à voix haute : /
 J’ai aidé : /
 
 
-
 ## Problèmes observés
 
-1. Incohérence de la page recherche en menu du bas
-2. Menu burger inutile car pages notées en bas
+1. La page « Recherche » dans le menu du bas n’est pas assez précise et peut sembler redondante avec les filtres déjà présents.
+
+2. Le menu burger paraît inutile, car les principales pages sont déjà accessibles depuis la navigation en bas de l’écran.
 
 ## Corrections prioritaires
 
-1. Préciser recherche avancées dans la 2e page
-2. Enlever menu burger 
+1. Préciser la deuxième page en « Reésultats » afin de mieux différencier sa fonction.
 
+2. Supprimer le menu burger pour simplifier la navigation et éviter les doublons.
 
+## Itération
+
+### Avant
+La maquette comportait un menu burger en haut de l’écran alors que les principales pages étaient déjà accessibles depuis la navigation du bas.
+
+### Après
+Le menu burger est supprimé afin de simplifier l’interface et d’éviter une navigation en double.
+
+### Autre amélioration prévue
+La page avec la loupe au bas de l'écran sera renommée « Résultats » afin de mieux indiquer qu’elle permet d’utiliser des critères plus précis. C'est le nom de la deuxième page prévue donc elle fait plus de sens qu'une icône de loupe. 
 
 
 
