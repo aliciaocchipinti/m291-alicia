@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Application Découverte Romande — ICT 291</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-site">
+    <div class="logo">Découverte Romande</div>
+    <nav class="nav-site" aria-label="Navigation principale">
+      <a href="#liste-cartes" class="lien-nav actif">Lieux</a>
+      <a href="#formulaire-section" class="lien-nav">Proposer un lieu</a>
+    </nav>
+  </header>
+
+  <main class="contenu-principal">
+    <section class="hero-section">
+      <h1>Explorez les trésors de Suisse romande</h1>
+      <p class="hero-intro">Baignades lacustres, patrimoine horloger et tables conviviales.</p>
+    </section>
+
+    <!-- Zone de recherche dynamique -->
+    <div class="barre-recherche">
+      <label for="recherche" class="label-recherche">Rechercher un lieu :</label>
+      <input type="search" id="recherche" placeholder="Ex: Pâquis, Lausanne, Grandson..." class="champ-recherche">
+      <p id="recherche-vide" class="message-vide" hidden>Aucun résultat ne correspond à votre saisie.</p>
+    </div>
+
+    <!-- Conteneur d'injection dynamique JavaScript -->
+    <section id="liste-cartes" class="cartes-grille" aria-live="polite">
+      <!-- Les cartes de data.json seront injectées ici par js/app.js -->
+    </section>
+
+    <!-- Formulaire d'ajout réactif -->
+    <section id="formulaire-section" class="section-formulaire">
+      <h2>Proposer un nouveau lieu</h2>
+      <form id="formulaire-ajout" class="formulaire-propre" novalidate>
+        <div class="champ-groupe">
+          <label for="champ-nom">Nom du lieu</label>
+          <input type="text" id="champ-nom" required minlength="3" placeholder="Ex: Lavaux Panoramic">
+        </div>
+
+        <div class="champ-groupe">
+          <label for="champ-commune">Commune</label>
+          <input type="text" id="champ-commune" required minlength="2" placeholder="Ex: Chexbres">
+        </div>
+
+        <p id="erreurs-formulaire" class="alerte-erreur" hidden></p>
+        <button type="submit" class="btn-primaire">Enregistrer le lieu</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-site">
+    <p>&copy; 2026 ICT 291 · Médiamatique suisse · Vanilla Web & Accessibilité WCAG AA</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

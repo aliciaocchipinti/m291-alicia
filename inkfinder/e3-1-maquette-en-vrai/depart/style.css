@@ -1,0 +1,251 @@
+/* Design Tokens — Charte graphique du projet ICT 291 */
+:root {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-primary: #0284c7;
+  --color-primary-hover: #0369a1;
+  --color-border: #e2e8f0;
+  --color-error: #b91c1c;
+  --color-error-bg: #fef2f2;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --radius-card: 12px;
+  --radius-btn: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* En-tête */
+.header-site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.nav-site .lien-nav {
+  margin-left: var(--space-3);
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.nav-site .lien-nav.actif {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+/* Corps principal */
+.contenu-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-3);
+}
+
+.hero-section {
+  margin-bottom: var(--space-4);
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: var(--space-2);
+}
+
+.hero-intro {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+}
+
+/* Barre de recherche */
+.barre-recherche {
+  margin-bottom: var(--space-4);
+}
+
+.label-recherche {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.champ-recherche {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px var(--space-3);
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-btn);
+  background-color: var(--color-surface);
+}
+
+.champ-recherche:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Grille de cartes Mobile First */
+.cartes-grille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+/* Carte individuelle */
+.carte {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carte:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.carte h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-1);
+  color: var(--color-text);
+}
+
+.carte .commune {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: var(--space-2);
+}
+
+.carte .description {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: var(--space-3);
+}
+
+.carte .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-2);
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge.ouvert { background: #dcfce7; color: #166534; }
+.badge.ferme { background: #fee2e2; color: #991b1b; }
+
+/* Responsive : 2 colonnes dès 640px, 3 colonnes dès 960px */
+@media (min-width: 640px) {
+  .cartes-grille {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .cartes-grille {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Respect de la sensibilité au mouvement */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transform: none !important;
+  }
+}
+
+/* Formulaire */
+.section-formulaire {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+}
+
+.champ-groupe {
+  margin-bottom: var(--space-3);
+}
+
+.champ-groupe label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.champ-groupe input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-btn);
+}
+
+.btn-primaire {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-btn);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.btn-primaire:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.alerte-erreur {
+  background-color: var(--color-error-bg);
+  color: var(--color-error);
+  padding: var(--space-2);
+  border-radius: var(--radius-btn);
+  margin-bottom: var(--space-3);
+  font-weight: 600;
+}
+
+.footer-site {
+  text-align: center;
+  padding: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--color-border);
+}
