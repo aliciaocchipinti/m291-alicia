@@ -1,62 +1,353 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Application Découverte Romande — ICT 291</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>InkFinder</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="header-site">
-    <div class="logo">Découverte Romande</div>
-    <nav class="nav-site" aria-label="Navigation principale">
-      <a href="#liste-cartes" class="lien-nav actif">Lieux</a>
-      <a href="#formulaire-section" class="lien-nav">Proposer un lieu</a>
+
+  <div class="app">
+
+    <!-- EN-TÊTE -->
+    <header class="header-site">
+
+      <h1 class="logo">InkFinder</h1>
+
+      <!-- Recherche -->
+      <div class="recherche">
+
+        <label for="recherche-tatoueur" class="visually-hidden">
+          Rechercher un tatoueur ou un style
+        </label>
+
+        <div class="champ-recherche">
+
+          <span class="icone-recherche" aria-hidden="true">
+            🔍
+          </span>
+
+          <input
+            type="search"
+            id="recherche-tatoueur"
+            placeholder="Rechercher un tatoueur, un style..."
+          >
+
+        </div>
+
+        <button class="bouton-filtre" type="button" aria-label="Ouvrir les filtres">
+          ☷
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <main class="contenu-principal">
+
+      <!-- STYLES -->
+      <section class="section-styles" aria-labelledby="titre-styles">
+
+        <div class="titre-section">
+
+          <h2 id="titre-styles">Styles</h2>
+
+          <a href="#" class="voir-tout">
+            Voir tout →
+          </a>
+
+        </div>
+
+
+        <div class="liste-styles">
+
+          <button class="style-bouton actif" type="button">
+            Tous
+          </button>
+
+          <button class="style-bouton" type="button">
+            Traditionnel
+          </button>
+
+          <button class="style-bouton" type="button">
+            Réalisme
+          </button>
+
+          <button class="style-bouton" type="button">
+            Minimaliste
+          </button>
+
+          <button class="style-bouton" type="button">
+            Japonais
+          </button>
+
+          <button class="style-bouton" type="button">
+            Lettrage
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- LISTE DES TATOUEURS -->
+      <section
+        class="cartes-grille"
+        aria-label="Liste des tatoueurs"
+      >
+
+
+        <!-- CARTE 1 -->
+        <article class="carte-tatoueur">
+
+          <img
+            src="images/studio-noir.jpg"
+            alt="Tatouage floral réalisé par Studio Noir"
+            class="image-tatoueur"
+          >
+
+          <div class="infos-tatoueur">
+
+            <h3>Studio Noir</h3>
+
+            <p class="localisation">
+              <span aria-hidden="true">●</span>
+              Lausanne
+            </p>
+
+            <div class="tags">
+
+              <span class="tag">
+                Traditionnel
+              </span>
+
+              <span class="tag">
+                Japonais
+              </span>
+
+            </div>
+
+            <p class="note">
+              <span class="etoile" aria-hidden="true">★</span>
+              4.8
+              <span class="avis">(32 avis)</span>
+            </p>
+
+          </div>
+
+          <a
+            href="#"
+            class="ouvrir-profil"
+            aria-label="Voir le profil de Studio Noir"
+          >
+            ›
+          </a>
+
+        </article>
+
+
+        <!-- CARTE 2 -->
+        <article class="carte-tatoueur">
+
+          <img
+            src="images/old-ink.jpg"
+            alt="Tatouage papillon réalisé par Old Ink"
+            class="image-tatoueur"
+          >
+
+          <div class="infos-tatoueur">
+
+            <h3>Old Ink</h3>
+
+            <p class="localisation">
+              <span aria-hidden="true">●</span>
+              Lausanne
+            </p>
+
+            <div class="tags">
+
+              <span class="tag">
+                Réalisme
+              </span>
+
+              <span class="tag">
+                Minimaliste
+              </span>
+
+            </div>
+
+            <p class="note">
+              <span class="etoile" aria-hidden="true">★</span>
+              4.6
+              <span class="avis">(18 avis)</span>
+            </p>
+
+          </div>
+
+          <a
+            href="#"
+            class="ouvrir-profil"
+            aria-label="Voir le profil de Old Ink"
+          >
+            ›
+          </a>
+
+        </article>
+
+
+        <!-- CARTE 3 -->
+        <article class="carte-tatoueur">
+
+          <img
+            src="images/trad-tattoo.jpg"
+            alt="Tatouage réalisé par Trad Tattoo"
+            class="image-tatoueur"
+          >
+
+          <div class="infos-tatoueur">
+
+            <h3>Trad Tattoo</h3>
+
+            <p class="localisation">
+              <span aria-hidden="true">●</span>
+              Vevey
+            </p>
+
+            <div class="tags">
+
+              <span class="tag">
+                Traditionnel
+              </span>
+
+              <span class="tag">
+                Lettrage
+              </span>
+
+            </div>
+
+            <p class="note">
+              <span class="etoile" aria-hidden="true">★</span>
+              4.5
+              <span class="avis">(27 avis)</span>
+            </p>
+
+          </div>
+
+          <a
+            href="#"
+            class="ouvrir-profil"
+            aria-label="Voir le profil de Trad Tattoo"
+          >
+            ›
+          </a>
+
+        </article>
+
+
+        <!-- CARTE 4 -->
+        <article class="carte-tatoueur">
+
+          <img
+            src="images/lea-tattoo.jpg"
+            alt="Tatouage réalisé par Léa Tattoo"
+            class="image-tatoueur"
+          >
+
+          <div class="infos-tatoueur">
+
+            <h3>Léa Tattoo</h3>
+
+            <p class="localisation">
+              <span aria-hidden="true">●</span>
+              Lausanne
+            </p>
+
+            <div class="tags">
+
+              <span class="tag">
+                Minimaliste
+              </span>
+
+              <span class="tag">
+                Floral
+              </span>
+
+            </div>
+
+            <p class="note">
+              <span class="etoile" aria-hidden="true">★</span>
+              4.7
+              <span class="avis">(14 avis)</span>
+            </p>
+
+          </div>
+
+          <a
+            href="#"
+            class="ouvrir-profil"
+            aria-label="Voir le profil de Léa Tattoo"
+          >
+            ›
+          </a>
+
+        </article>
+
+      </section>
+
+    </main>
+
+
+    <!-- NAVIGATION PRINCIPALE -->
+    <nav class="navigation-principale" aria-label="Navigation principale">
+
+      <a href="#" class="navigation-lien actif">
+
+        <span class="navigation-icone" aria-hidden="true">
+          ◆
+        </span>
+
+        <span>
+          Liste
+        </span>
+
+      </a>
+
+
+      <a href="#" class="navigation-lien">
+
+        <span class="navigation-icone" aria-hidden="true">
+          ◯
+        </span>
+
+        <span>
+          Résultats
+        </span>
+
+      </a>
+
+
+      <a href="#" class="navigation-lien">
+
+        <span class="navigation-icone" aria-hidden="true">
+          ♡
+        </span>
+
+        <span>
+          Favoris
+        </span>
+
+      </a>
+
     </nav>
-  </header>
 
-  <main class="contenu-principal">
-    <section class="hero-section">
-      <h1>Explorez les trésors de Suisse romande</h1>
-      <p class="hero-intro">Baignades lacustres, patrimoine horloger et tables conviviales.</p>
-    </section>
+  </div>
 
-    <!-- Zone de recherche dynamique -->
-    <div class="barre-recherche">
-      <label for="recherche" class="label-recherche">Rechercher un lieu :</label>
-      <input type="search" id="recherche" placeholder="Ex: Pâquis, Lausanne, Grandson..." class="champ-recherche">
-      <p id="recherche-vide" class="message-vide" hidden>Aucun résultat ne correspond à votre saisie.</p>
-    </div>
-
-    <!-- Conteneur d'injection dynamique JavaScript -->
-    <section id="liste-cartes" class="cartes-grille" aria-live="polite">
-      <!-- Les cartes de data.json seront injectées ici par js/app.js -->
-    </section>
-
-    <!-- Formulaire d'ajout réactif -->
-    <section id="formulaire-section" class="section-formulaire">
-      <h2>Proposer un nouveau lieu</h2>
-      <form id="formulaire-ajout" class="formulaire-propre" novalidate>
-        <div class="champ-groupe">
-          <label for="champ-nom">Nom du lieu</label>
-          <input type="text" id="champ-nom" required minlength="3" placeholder="Ex: Lavaux Panoramic">
-        </div>
-
-        <div class="champ-groupe">
-          <label for="champ-commune">Commune</label>
-          <input type="text" id="champ-commune" required minlength="2" placeholder="Ex: Chexbres">
-        </div>
-
-        <p id="erreurs-formulaire" class="alerte-erreur" hidden></p>
-        <button type="submit" class="btn-primaire">Enregistrer le lieu</button>
-      </form>
-    </section>
-  </main>
-
-  <footer class="footer-site">
-    <p>&copy; 2026 ICT 291 · Médiamatique suisse · Vanilla Web & Accessibilité WCAG AA</p>
-  </footer>
-
-  <script src="js/app.js"></script>
 </body>
+
 </html>
