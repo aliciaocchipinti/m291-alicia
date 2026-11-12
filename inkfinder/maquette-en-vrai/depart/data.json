@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nom": "Studio Noir",
+    "ville": "Lausanne",
+    "style1": "Traditionnel",
+    "style2": "Japonais",
+    "note": 4.8,
+    "avis": 32,
+    "disponible": true,
+    "image": "images/studio-noir.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Old Ink",
+    "ville": "Lausanne",
+    "style1": "Réalisme",
+    "style2": "Minimaliste",
+    "note": 4.6,
+    "avis": 18,
+    "disponible": true,
+    "image": "images/old-ink.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Trad Tattoo",
+    "ville": "Vevey",
+    "style1": "Traditionnel",
+    "style2": "Lettrage",
+    "note": 4.5,
+    "avis": 27,
+    "disponible": false,
+    "image": "images/trad-tattoo.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Léa Tattoo",
+    "ville": "Lausanne",
+    "style1": "Minimaliste",
+    "style2": "Floral",
+    "note": 4.7,
+    "avis": 14,
+    "disponible": true,
+    "image": "images/lea-tattoo.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Atelier Nox",
+    "ville": "Montreux",
+    "style1": "Blackwork",
+    "style2": "Floral",
+    "note": 4.9,
+    "avis": 21,
+    "disponible": true,
+    "image": "images/studio-noir.jpg"
+  }
+]
